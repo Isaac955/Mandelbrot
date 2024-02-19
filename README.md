@@ -1,7 +1,7 @@
 # Ensemble de Mandelbrot
 
 Ce projet consiste à explorer l'ensemble de Mandelbrot, une fractale célèbre dans le domaine des mathématiques. L'ensemble de Mandelbrot est une représentation graphique de l'ensemble des nombres complexes pour lesquels l'itération d'une fonction simple ne diverge pas.
-
+(https://pillow.readthedocs.io/en/stable/index.html) (https://docs.python.org/3/library/math.html)
 ## À propos de l'ensemble de Mandelbrot
 
 L'ensemble de Mandelbrot est défini par l'ensemble de points \(c\) dans le plan complexe pour lesquels la suite récurrente \(z_{n+1} = z_{n}^2 + c\), avec \(z_{0} = 0\), reste bornée lorsque \(n\) tend vers l'infini.
@@ -31,6 +31,10 @@ PS : Veuillez noter que plus vous augmentez la précision, plus le temps de calc
 
 
 ## Exemple d'utilisation
+black=(0,0,0)
+<br>
+white=(255,255,255)
+<br>
 
-```bash
-$ python mandelbrot_tp.py
+![mandelbrot](https://github.com/Isaac955/Mandelbrot/assets/123961485/023e4308-8da9-432e-b4d7-18a9bc6ef3b7)
+
